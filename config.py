@@ -1,6 +1,6 @@
 # 配置文件
 
-SECRET_KEY = 'santidadday'
+SECRET_KEY = 'xxxx'
 
 # 数据库配置
 # MySQL所在的主机名
@@ -10,7 +10,7 @@ PORT = '3306'
 # 连接MySQL的用户名
 USERNAME = 'root'
 # 连接MySQL的密码
-PASSWORD = 'log520='
+PASSWORD = 'root'
 # MySQL上创建的数据库名称
 DATABASE = 'oa'
 
@@ -21,6 +21,6 @@ SQLALCHEMY_DATABASE_URI = DB_URL
 MAIL_SERVER = 'smtp.qq.com'
 MAIL_USE_SSL = True
 MAIL_PORT = 465
-MAIL_USERNAME = '1393399898@qq.com'  # 邮箱账号
-MAIL_PASSWORD = 'wuzahjkwujzbggba'  # 开启SMTP的授权码
-MAIL_DEFAULT_SENDER = '1393399898@qq.com'  # 邮箱账号
+MAIL_USERNAME = 'xxxx@qq.com'  # 邮箱账号
+MAIL_PASSWORD = 'xxxx'  # 开启SMTP的授权码
+MAIL_DEFAULT_SENDER = 'xxxx@qq.com'  # 邮箱账号
