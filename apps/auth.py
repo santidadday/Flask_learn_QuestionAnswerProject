@@ -44,8 +44,8 @@ def logout():
     return redirect('/')
 
 
-# GET请求:从服务器上获取数据
-# POST请求:将客户端的数据提交给服务器
+# GET请求:参数会被完整保留在浏览器历史记录里
+# POST请求:参数不会被保留
 @bp.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'GET':
