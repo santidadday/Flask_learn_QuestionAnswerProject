@@ -68,7 +68,7 @@ def register():
             return redirect(url_for('auth.register'))
 
 
-# 在前端发起请求,不改变当前界面前提下发送请求,使用ajxa技术
+# 在前端发起请求,不改变当前界面前提下发送请求,使用ajax技术
 @bp.route('/captcha/email')
 def get_email_captcha():
     # 使用post传参
